@@ -1,0 +1,128 @@
+/* categories.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(216,155,100);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    display: inline-block;
+    overflow: hidden; /* Cuts off the parts of the logo that extend beyond the container */
+    height: 100px;
+    margin-top: -40px;  
+    
+}
+
+header .logo img {
+    max-width: 100%;
+    height: 150px;
+    display: block;
+}
+
+header .welcome-message {
+    margin-top: 0px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #664229;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #563b29;
+}
+
+.category-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.category {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.category h2 {
+    margin-top: 10px;
+    color: #664229;
+}
+
+.category p {
+    margin-bottom: 10px;
+}
+
+.category a {
+    display: inline-block;
+    background-color: #664229;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.category a:hover {
+    background-color: #563b29;
+}
+
+footer {
+    background-color: rgb(216,155,100);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+}
+

@@ -1,0 +1,92 @@
+/* adminpanel.css & manage_books.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  header {
+    background-color: rgb(216, 155, 100);
+    padding: 20px 0;
+    display: flex; /* Allow logo and admin info to align horizontally */
+    justify-content: space-between;
+  }
+  
+  header .logo {
+    margin: 0; 
+  }
+  
+  header .logo img {
+    height: 100px; 
+  }
+  
+  header .admin-info {
+    text-align: center; 
+    color: #fff;
+  }
+  
+  /* Admin Panel (common for both adminpanel.php and manage_books.php) */
+  .admin-panel {
+    max-width: 800px; 
+    margin: 50px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styles (common for both adminpanel.php and manage_books.php) */
+  form {
+    display: flex; /* Arrange form elements horizontally */
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Button Container */
+  .button-container {
+    display: flex; 
+    gap: 10px; 
+  }
+  
+  /* Manage Books Button */
+  .submit-btn {
+    background-color: #664229; 
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    width: 350px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #553725;
+  }
+  
+  /* Logout Button (Similar to Manage Books Button) */
+  .logout-button {
+    background-color: #664229; 
+    border: 1px solid #ccc; 
+    color: #fff; 
+    cursor: pointer;
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none; /* Remove default button underline */
+    display: inline-block; 
+    transition: background-color 0.3s ease;
+    width: 350px;
+  }
+  
+  .logout-button:hover {
+    background-color: #f5f5f5; /* Slightly darker background on hover */
+  }

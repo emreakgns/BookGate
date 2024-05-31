@@ -1,0 +1,113 @@
+/* adminpanel.css & manage_books.php */
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  header {
+    background-color: rgb(216, 155, 100);
+    padding: 20px 0;
+    display: flex; 
+    justify-content: space-between;
+  }
+  
+  header .logo {
+    margin: 0; 
+  }
+  
+  header .logo img {
+    height: 100px; 
+  }
+  
+  header .admin-info {
+    text-align: center; 
+    color: #fff; 
+  }
+  
+  /* Admin Panel (common for both adminpanel.php and manage_books.php) */
+  .admin-panel {
+    max-width: 800px; 
+    margin: 50px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Manage Books Specific Styles (manage_books.php) */
+  .card {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the card */
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #664229;
+  }
+  
+  /* Form Styles (common for both adminpanel.php and manage_books.php) */
+  form {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-btn {
+    margin-top: 10px;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #664229; 
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Logout Button (common for both adminpanel.php and manage_books.php) */
+  .logout-button {
+    background-color: transparent; 
+    border: none;
+    color: #664229; 
+    font-weight: bold; 
+    cursor: pointer;
+  }
+  
+  .logout-button:hover { /* Add hover effect for visual feedback */
+    text-decoration: underline; 
+  }
+  
+  /* Added Styles for Centering and Text Color */
+  header .admin-info h1,
+  header .admin-info p {
+    text-align: center; 
+  }
+  
+  /* Hover Effect for Add Button */
+  .submit-btn:hover {
+    background-color: #553725; 
+  }

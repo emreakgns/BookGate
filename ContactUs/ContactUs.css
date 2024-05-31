@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(229, 211, 179);
+    font-size: 14px;
+    font-weight: 1000;
+    color: #664229;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: #664229;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img{
+    width: 125px;
+    padding-left: 25px;
+}
+.navbuttons{
+    display: flex;
+    padding: 20px;
+}
+
+.navbar a{
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+
+}
+.contact-box{
+    background:#664229;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.contact-box label{
+    font-weight: bold;
+}
+
+.contact-box h3{
+    font-weight: bolder;
+}
+.contact-left{
+    padding: 40px 60px;
+    flex-basis:60%
+}
+.contact-right{
+    padding: 40px 60px;
+    border-radius: 0 15px 15px 0;
+    background:#664229;
+    color:rgb(229, 211, 179);
+    flex-basis: 40%;
+}
+
+.contact-right a{
+    color:rgb(229, 211, 179);
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #664229;
+    outline: none;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #664229;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:rgb(229, 211, 179);
+}
+button{
+    background: white;
+    color:#664229;
+    width: 100px;
+    border: none;
+    outline: none;
+    height:35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.contact-left h3{
+    color: rgb(229, 211, 179);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}

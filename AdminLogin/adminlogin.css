@@ -1,0 +1,75 @@
+/* adminlogin.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(216,155,100);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    margin-top: -10px;
+    margin-bottom:-10px;
+}
+
+header .logo img {
+    height: 150px;
+
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #664229;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input-group input {
+    width: calc(100% - 30px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #664229;
+    color: #fff;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}

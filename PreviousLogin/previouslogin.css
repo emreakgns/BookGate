@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 155, 100);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(216, 155, 100);
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.welcome-message {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.prelogin {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bgroup {
+    margin: 10px 0;
+}
+
+.custom-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+}

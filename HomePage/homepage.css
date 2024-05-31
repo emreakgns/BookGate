@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(216,155,100);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(216,155,100);
+    padding: 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.welcome-message h1 ,p {
+    margin: 0;
+    color: #f4f4f4;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.book-search {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.book-search input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.book-search button {
+    padding: 10px 20px;
+}
+
+.book-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    background-color:#f4f4f4;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+.book-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.book-card img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.book-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.book-card p {
+    margin: 5px 0;
+    color: black;
+}
+
+.book-card .add-to-cart-button {
+    background-color: #664229;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.book-card .add-to-cart-button:hover {
+    background-color: #2b180b;
+}
